@@ -109,15 +109,6 @@ body {
   width: calc((100% - 72px) / 4);
 }
 
-.features-item-title {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-  margin-bottom: 8px;
-}
-
 .features-item-text {
   font-size: 16px;
   line-height: 1.5;
@@ -224,10 +215,6 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
   text-align: center;
-}
-
-.team-member-content {
-  padding: 32px 0;
 }
 
 .footer {
