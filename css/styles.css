@@ -176,11 +176,11 @@ body {
   color: #434455;
 }
 .team-section {
-  background-color: #f4f4fd;
+  background-color: #F4F4FD;
   padding: 120px 0;
 }
 
-.team-title {
+.team-heading {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -200,22 +200,25 @@ body {
 }
 
 .team-item {
-  background-color: #ffffff;
+  background-color: #FFFFFF;
   border-radius: 0 0 4px 4px;
   width: calc((100% - 72px) / 4);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+              0px 1px 1px rgba(46, 47, 66, 0.16),
+              0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
-.team-member-title {
+.features-item-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  text-align: center;
   margin-bottom: 8px;
+  text-align: center;
 }
 
-.team-member-text {
+.features-item-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
